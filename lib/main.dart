@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
           visualDensity: VisualDensity.adaptivePlatformDensity,
-          cardColor: Colors.white),
+          cardColor: Colors.blue),
       home: BasicSliverAppbar(),
     );
   }
