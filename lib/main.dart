@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,9 +12,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
+          visualDensity: VisualDensity.adaptivePlatformDensity,
+          cardColor: Colors.white),
       home: BasicSliverAppbar(),
     );
   }
@@ -42,6 +42,7 @@ class BasicSliverAppbar extends StatelessWidget {
                 Container(color: Colors.green),
                 Container(color: Colors.orange),
                 Container(color: Colors.yellow),
+                Container(color: Colors.pink),
                 Container(color: Colors.pink),
               ],
             ),
