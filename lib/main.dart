@@ -30,7 +30,7 @@ class BasicSliverAppbar extends StatelessWidget {
             backgroundColor: Colors.green,
             expandedHeight: 200.0,
             flexibleSpace: FlexibleSpaceBar(
-              background: Image.asset('assets/forest.jpg', fit: BoxFit.cover),
+              background: Image.asset('assets325/forest.jpg', fit: BoxFit.cover),
             ),
           ),
           SliverFixedExtentList(
@@ -39,6 +39,7 @@ class BasicSliverAppbar extends StatelessWidget {
               [
                 Container(color: Colors.red),
                 Container(color: Colors.pink),
+                Container(color: Colors.red),
               ],
             ),
           ),
