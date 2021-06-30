@@ -40,6 +40,7 @@ class BasicSliverAppbar extends StatelessWidget {
               [
                 Container(color: Colors.red),
                 Container(color: Colors.pink),
+                Container(color: Colors.red),
               ],
             ),
           ),
