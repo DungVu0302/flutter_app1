@@ -37,7 +37,7 @@ class BasicSliverAppbar extends StatelessWidget {
             itemExtent: 150.0,
             delegate: SliverChildListDelegate(
               [
-                Container(color: Colors.pink),
+                Container(color: Colors.red),
               ],
             ),
           ),
